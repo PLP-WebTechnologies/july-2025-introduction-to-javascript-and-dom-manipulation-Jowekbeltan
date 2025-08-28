@@ -8,9 +8,9 @@ function checkAge() {
   let result = document.getElementById("ageResult");
 
   if (age >= 18) {
-    result.textContent = `You are ${age} years old. ✅ Adult`;
+    result.textContent = `You are ${age} years old.  Adult`;
   } else {
-    result.textContent = `You are ${age} years old. ❌ Not an adult`;
+    result.textContent = `You are ${age} years old. Not an adult`;
   }
 }
 
